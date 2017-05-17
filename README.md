@@ -1,6 +1,5 @@
 # Miva
-A Swift Download Library
-=====
+##### A Swift Download Library
 
 Miva is a networking image library that fetches, caches, and displays images, JSON, files via HTTP in Swift.
 
@@ -13,8 +12,6 @@ Miva is a networking image library that fetches, caches, and displays images, JS
 - Robust, fast, and customizable.
 - Simple concise codebase.
 - handles redundant image requests, so only one request is sent for multiple queries
-
-Full article here: [Vluxe](http://vluxe.io/skeets.html)
 
 ## Example
 
