@@ -63,6 +63,11 @@ request.cancel()
 
 Skeets requires at least iOS 8 or above.
 
+## TODOs
+- Class and method documentation
+- Improve design pattern
+- Write test cases
+
 ## License
 
 Miva is licensed under MIT Open source license.
