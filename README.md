@@ -77,6 +77,5 @@ Miva is licensed under MIT Open source license.
 ### Furqan Muhammad Khan
 * https://github.com/furqanmk
 * http://twitter.com/furqanmk9
-* http://facebook.com/furqanmk9
 * http://behance.net/furqanmk
 
