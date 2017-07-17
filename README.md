@@ -61,7 +61,7 @@ request.cancel()
 
 ## Requirements
 
-Skeets requires at least iOS 8 or above.
+Requires at least iOS 8 or above.
 
 ## TODOs
 - Class and method documentation
