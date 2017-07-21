@@ -63,6 +63,18 @@ request.cancel()
 
 Requires at least iOS 8 or above.
 
+## Installation
+
+#### CocoaPods
+
+Miva requires CocoaPods 1.1.x or higher.
+
+Miva is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
+
+```
+pod 'Miva'
+```
+
 ## TODOs
 - Class and method documentation
 - Improve design pattern
