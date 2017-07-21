@@ -25,3 +25,27 @@ public extension UIImage {
         }
     }
 }
+
+extension UIImage : DataConvertible, DataRepresentable {
+    
+    public typealias Result = UIImage
+    
+    private static var imageSync = NSLock()
+    
+    static func safeImageWithData(_ data: Data) -> Result? {
+        imageSync.lock()
+        let image = UIImage(data: data)
+        imageSync.unlock()
+        return image
+    }
+    
+    public class func convertFromData(_ data: Data) -> Result? {
+        let image = UIImage.safeImageWithData(data)
+        return image
+    }
+    
+    public func asData() -> Data! {
+        return self.data() as Data!
+    }
+    
+}

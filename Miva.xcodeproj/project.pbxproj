@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5A78B291F2226C500774570 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A78B281F2226C500774570 /* String+Ext.swift */; };
+		A5A78B2B1F22270800774570 /* Data+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A78B2A1F22270800774570 /* Data+Ext.swift */; };
+		A5A78B2D1F22277B00774570 /* DataRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A78B2C1F22277B00774570 /* DataRepresentable.swift */; };
+		A5A78B2F1F22279900774570 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A78B2E1F22279900774570 /* JSON.swift */; };
 		D18280C11ECA7A3800A591EF /* Date+Miva.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18280C01ECA7A3800A591EF /* Date+Miva.swift */; };
 		D19890161EC7710F004EA332 /* Miva.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D198900C1EC7710F004EA332 /* Miva.framework */; };
 		D198901B1EC7710F004EA332 /* MivaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D198901A1EC7710F004EA332 /* MivaTests.swift */; };
@@ -83,6 +87,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A5A78B281F2226C500774570 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		A5A78B2A1F22270800774570 /* Data+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Ext.swift"; sourceTree = "<group>"; };
+		A5A78B2C1F22277B00774570 /* DataRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRepresentable.swift; sourceTree = "<group>"; };
+		A5A78B2E1F22279900774570 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		D18280C01ECA7A3800A591EF /* Date+Miva.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Miva.swift"; sourceTree = "<group>"; };
 		D198900C1EC7710F004EA332 /* Miva.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Miva.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D198900F1EC7710F004EA332 /* Miva.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Miva.h; sourceTree = "<group>"; };
@@ -204,6 +212,8 @@
 				D198906E1EC84C92004EA332 /* MivaLogger.swift */,
 				D198908B1ECA31D0004EA332 /* MivaSettings.swift */,
 				D19890691EC7C602004EA332 /* DataConvertible.swift */,
+				A5A78B2C1F22277B00774570 /* DataRepresentable.swift */,
+				A5A78B2E1F22279900774570 /* JSON.swift */,
 				D198908A1ECA2637004EA332 /* Image */,
 				D198906B1EC7C6ED004EA332 /* Extensions */,
 				D198900F1EC7710F004EA332 /* Miva.h */,
@@ -258,6 +268,8 @@
 			children = (
 				D198906C1EC7C700004EA332 /* UIImage+Miva.swift */,
 				D19890701EC88CD6004EA332 /* UIImageView+Miva.swift */,
+				A5A78B281F2226C500774570 /* String+Ext.swift */,
+				A5A78B2A1F22270800774570 /* Data+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -509,13 +521,17 @@
 				D19890681EC7C234004EA332 /* MivaError.swift in Sources */,
 				D198906A1EC7C602004EA332 /* DataConvertible.swift in Sources */,
 				D198906F1EC84C92004EA332 /* MivaLogger.swift in Sources */,
+				A5A78B2B1F22270800774570 /* Data+Ext.swift in Sources */,
 				D198908C1ECA31D0004EA332 /* MivaSettings.swift in Sources */,
 				D19890731EC897C7004EA332 /* MivaImageManager.swift in Sources */,
 				D19890761EC89D81004EA332 /* UIImageView+Miva.swift in Sources */,
 				D19890661EC7B89C004EA332 /* MivaRequest.swift in Sources */,
+				A5A78B2D1F22277B00774570 /* DataRepresentable.swift in Sources */,
+				A5A78B2F1F22279900774570 /* JSON.swift in Sources */,
 				D198906D1EC7C700004EA332 /* UIImage+Miva.swift in Sources */,
 				D198905B1EC7A2DE004EA332 /* MivaManager.swift in Sources */,
 				D19890591EC7A2AE004EA332 /* MivaCache.swift in Sources */,
+				A5A78B291F2226C500774570 /* String+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
