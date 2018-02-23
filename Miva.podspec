@@ -15,6 +15,6 @@ A networking library that fetches, caches, and displays images, JSON, files via 
   s.source           = { :git => 'https://github.com/furqanmk/Miva.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '8.0'
-  s.source_files = 'Miva/*.{swift,h}'
+  s.source_files = 'Source/*'
  
 end
