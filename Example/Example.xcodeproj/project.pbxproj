@@ -8,20 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3BF93DBCF6B6AB6D26D426A4 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE292838FAA76DBAE30C6A83 /* Pods_Example.framework */; };
+		D1A0EE6F2045710C000FCF3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A0EE6D2045710B000FCF3A /* Main.storyboard */; };
+		D1A0EE722045711D000FCF3A /* PostCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0EE702045711D000FCF3A /* PostCollection.swift */; };
+		D1A0EE732045711D000FCF3A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0EE712045711D000FCF3A /* Post.swift */; };
+		D1A0EE752045712A000FCF3A /* MivaCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0EE742045712A000FCF3A /* MivaCollectionViewController.swift */; };
+		D1A0EE7820457135000FCF3A /* MivaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0EE7620457135000FCF3A /* MivaLayout.swift */; };
+		D1A0EE7920457135000FCF3A /* MivaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0EE7720457135000FCF3A /* MivaCollectionViewCell.swift */; };
+		D1A0EE7C20457141000FCF3A /* Date+Miva.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0EE7A20457141000FCF3A /* Date+Miva.swift */; };
+		D1A0EE7D20457141000FCF3A /* UIColor+Miva.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0EE7B20457141000FCF3A /* UIColor+Miva.swift */; };
 		D1A24CFA204021130076911B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A24CF9204021130076911B /* AppDelegate.swift */; };
-		D1A24CFC204021130076911B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A24CFB204021130076911B /* ViewController.swift */; };
 		D1A24D01204021130076911B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A24D00204021130076911B /* Assets.xcassets */; };
 		D1A24D04204021130076911B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A24D02204021130076911B /* LaunchScreen.storyboard */; };
 		D1A24D0F204021130076911B /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A24D0E204021130076911B /* ExampleTests.swift */; };
 		D1A24D1A204021130076911B /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A24D19204021130076911B /* ExampleUITests.swift */; };
-		D1A24D2E204022130076911B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A24D27204022120076911B /* Post.swift */; };
-		D1A24D2F204022130076911B /* UIColor+Miva.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A24D28204022120076911B /* UIColor+Miva.swift */; };
-		D1A24D30204022130076911B /* MivaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A24D29204022130076911B /* MivaLayout.swift */; };
-		D1A24D31204022130076911B /* PostCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A24D2A204022130076911B /* PostCollection.swift */; };
-		D1A24D32204022130076911B /* MivaCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A24D2B204022130076911B /* MivaCollectionViewController.swift */; };
-		D1A24D33204022130076911B /* MivaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A24D2C204022130076911B /* MivaCollectionViewCell.swift */; };
-		D1A24D34204022130076911B /* Date+Miva.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A24D2D204022130076911B /* Date+Miva.swift */; };
-		D1A24D37204023030076911B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A24D35204023030076911B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +43,16 @@
 /* Begin PBXFileReference section */
 		2E13DAD2AAD1263D31883A4C /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		AE292838FAA76DBAE30C6A83 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A0EE6E2045710B000FCF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1A0EE702045711D000FCF3A /* PostCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCollection.swift; sourceTree = "<group>"; };
+		D1A0EE712045711D000FCF3A /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		D1A0EE742045712A000FCF3A /* MivaCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MivaCollectionViewController.swift; sourceTree = "<group>"; };
+		D1A0EE7620457135000FCF3A /* MivaLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MivaLayout.swift; sourceTree = "<group>"; };
+		D1A0EE7720457135000FCF3A /* MivaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MivaCollectionViewCell.swift; sourceTree = "<group>"; };
+		D1A0EE7A20457141000FCF3A /* Date+Miva.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Miva.swift"; sourceTree = "<group>"; };
+		D1A0EE7B20457141000FCF3A /* UIColor+Miva.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Miva.swift"; sourceTree = "<group>"; };
 		D1A24CF6204021130076911B /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A24CF9204021130076911B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1A24CFB204021130076911B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1A24D00204021130076911B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1A24D03204021130076911B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1A24D05204021130076911B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,14 +62,6 @@
 		D1A24D15204021130076911B /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A24D19204021130076911B /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		D1A24D1B204021130076911B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1A24D27204022120076911B /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = "../../Example-1/Example/Post.swift"; sourceTree = "<group>"; };
-		D1A24D28204022120076911B /* UIColor+Miva.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Miva.swift"; path = "../../Example-1/Example/UIColor+Miva.swift"; sourceTree = "<group>"; };
-		D1A24D29204022130076911B /* MivaLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MivaLayout.swift; path = "../../Example-1/Example/MivaLayout.swift"; sourceTree = "<group>"; };
-		D1A24D2A204022130076911B /* PostCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostCollection.swift; path = "../../Example-1/Example/PostCollection.swift"; sourceTree = "<group>"; };
-		D1A24D2B204022130076911B /* MivaCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MivaCollectionViewController.swift; path = "../../Example-1/Example/MivaCollectionViewController.swift"; sourceTree = "<group>"; };
-		D1A24D2C204022130076911B /* MivaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MivaCollectionViewCell.swift; path = "../../Example-1/Example/MivaCollectionViewCell.swift"; sourceTree = "<group>"; };
-		D1A24D2D204022130076911B /* Date+Miva.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Miva.swift"; path = "../../Example-1/Example/Date+Miva.swift"; sourceTree = "<group>"; };
-		D1A24D36204023030076911B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Example-1/Example/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		DAFE15504B62B6830FCF8AAE /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +99,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D1A0EE6520456FD8000FCF3A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D1A0EE7A20457141000FCF3A /* Date+Miva.swift */,
+				D1A0EE7B20457141000FCF3A /* UIColor+Miva.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D1A0EE6620456FE4000FCF3A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1A0EE7720457135000FCF3A /* MivaCollectionViewCell.swift */,
+				D1A0EE7620457135000FCF3A /* MivaLayout.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1A0EE6720456FEC000FCF3A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1A0EE742045712A000FCF3A /* MivaCollectionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D1A0EE6820456FF7000FCF3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1A0EE712045711D000FCF3A /* Post.swift */,
+				D1A0EE702045711D000FCF3A /* PostCollection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D1A24CED204021130076911B = {
 			isa = PBXGroup;
 			children = (
@@ -126,17 +159,13 @@
 		D1A24CF8204021130076911B /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				D1A24D2D204022130076911B /* Date+Miva.swift */,
-				D1A24D2C204022130076911B /* MivaCollectionViewCell.swift */,
-				D1A24D2B204022130076911B /* MivaCollectionViewController.swift */,
-				D1A24D29204022130076911B /* MivaLayout.swift */,
-				D1A24D27204022120076911B /* Post.swift */,
-				D1A24D2A204022130076911B /* PostCollection.swift */,
-				D1A24D28204022120076911B /* UIColor+Miva.swift */,
+				D1A0EE6820456FF7000FCF3A /* Model */,
+				D1A0EE6720456FEC000FCF3A /* ViewControllers */,
+				D1A0EE6620456FE4000FCF3A /* Views */,
+				D1A0EE6520456FD8000FCF3A /* Extensions */,
 				D1A24CF9204021130076911B /* AppDelegate.swift */,
-				D1A24CFB204021130076911B /* ViewController.swift */,
 				D1A24D00204021130076911B /* Assets.xcassets */,
-				D1A24D35204023030076911B /* Main.storyboard */,
+				D1A0EE6D2045710B000FCF3A /* Main.storyboard */,
 				D1A24D02204021130076911B /* LaunchScreen.storyboard */,
 				D1A24D05204021130076911B /* Info.plist */,
 			);
@@ -280,7 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A24D37204023030076911B /* Main.storyboard in Resources */,
+				D1A0EE6F2045710C000FCF3A /* Main.storyboard in Resources */,
 				D1A24D04204021130076911B /* LaunchScreen.storyboard in Resources */,
 				D1A24D01204021130076911B /* Assets.xcassets in Resources */,
 			);
@@ -361,15 +390,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A24D2E204022130076911B /* Post.swift in Sources */,
-				D1A24CFC204021130076911B /* ViewController.swift in Sources */,
-				D1A24D2F204022130076911B /* UIColor+Miva.swift in Sources */,
-				D1A24D33204022130076911B /* MivaCollectionViewCell.swift in Sources */,
-				D1A24D31204022130076911B /* PostCollection.swift in Sources */,
-				D1A24D32204022130076911B /* MivaCollectionViewController.swift in Sources */,
+				D1A0EE7C20457141000FCF3A /* Date+Miva.swift in Sources */,
+				D1A0EE732045711D000FCF3A /* Post.swift in Sources */,
+				D1A0EE7D20457141000FCF3A /* UIColor+Miva.swift in Sources */,
+				D1A0EE752045712A000FCF3A /* MivaCollectionViewController.swift in Sources */,
 				D1A24CFA204021130076911B /* AppDelegate.swift in Sources */,
-				D1A24D34204022130076911B /* Date+Miva.swift in Sources */,
-				D1A24D30204022130076911B /* MivaLayout.swift in Sources */,
+				D1A0EE722045711D000FCF3A /* PostCollection.swift in Sources */,
+				D1A0EE7820457135000FCF3A /* MivaLayout.swift in Sources */,
+				D1A0EE7920457135000FCF3A /* MivaCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,20 +433,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D1A0EE6D2045710B000FCF3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A0EE6E2045710B000FCF3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		D1A24D02204021130076911B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D1A24D03204021130076911B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		D1A24D35204023030076911B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1A24D36204023030076911B /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
