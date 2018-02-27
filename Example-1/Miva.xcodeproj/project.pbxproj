@@ -7,28 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35F9614AA79DCBA91A534CF3 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896E1B1029EB9EFABA124B59 /* Pods_Example.framework */; };
 		D18280C11ECA7A3800A591EF /* Date+Miva.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18280C01ECA7A3800A591EF /* Date+Miva.swift */; };
 		D19890161EC7710F004EA332 /* Miva.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D198900C1EC7710F004EA332 /* Miva.framework */; };
-		D198901B1EC7710F004EA332 /* MivaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D198901A1EC7710F004EA332 /* MivaTests.swift */; };
-		D198901D1EC7710F004EA332 /* Miva.h in Headers */ = {isa = PBXBuildFile; fileRef = D198900F1EC7710F004EA332 /* Miva.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D198902D1EC7980E004EA332 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D198902C1EC7980E004EA332 /* AppDelegate.swift */; };
 		D19890321EC7980E004EA332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19890301EC7980E004EA332 /* Main.storyboard */; };
 		D19890341EC7980E004EA332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19890331EC7980E004EA332 /* Assets.xcassets */; };
 		D19890371EC7980E004EA332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19890351EC7980E004EA332 /* LaunchScreen.storyboard */; };
 		D19890421EC7980E004EA332 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19890411EC7980E004EA332 /* ExampleTests.swift */; };
 		D198904D1EC7980E004EA332 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D198904C1EC7980E004EA332 /* ExampleUITests.swift */; };
-		D19890591EC7A2AE004EA332 /* MivaCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19890581EC7A2AE004EA332 /* MivaCache.swift */; };
-		D198905B1EC7A2DE004EA332 /* MivaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D198905A1EC7A2DE004EA332 /* MivaManager.swift */; };
-		D19890661EC7B89C004EA332 /* MivaRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19890651EC7B89C004EA332 /* MivaRequest.swift */; };
-		D19890681EC7C234004EA332 /* MivaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19890671EC7C234004EA332 /* MivaError.swift */; };
-		D198906A1EC7C602004EA332 /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19890691EC7C602004EA332 /* DataConvertible.swift */; };
-		D198906D1EC7C700004EA332 /* UIImage+Miva.swift in Sources */ = {isa = PBXBuildFile; fileRef = D198906C1EC7C700004EA332 /* UIImage+Miva.swift */; };
-		D198906F1EC84C92004EA332 /* MivaLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D198906E1EC84C92004EA332 /* MivaLogger.swift */; };
-		D19890731EC897C7004EA332 /* MivaImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19890721EC897C7004EA332 /* MivaImageManager.swift */; };
-		D19890761EC89D81004EA332 /* UIImageView+Miva.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19890701EC88CD6004EA332 /* UIImageView+Miva.swift */; };
 		D19890841EC8A913004EA332 /* Miva.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D198900C1EC7710F004EA332 /* Miva.framework */; };
 		D19890851EC8A913004EA332 /* Miva.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D198900C1EC7710F004EA332 /* Miva.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D198908C1ECA31D0004EA332 /* MivaSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D198908B1ECA31D0004EA332 /* MivaSettings.swift */; };
 		D198908E1ECA4FC7004EA332 /* MivaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D198908D1ECA4FC7004EA332 /* MivaCollectionViewCell.swift */; };
 		D19890901ECA50E2004EA332 /* MivaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D198908F1ECA50E2004EA332 /* MivaLayout.swift */; };
 		D19890921ECA5645004EA332 /* MivaCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19890911ECA5645004EA332 /* MivaCollectionViewController.swift */; };
@@ -83,13 +72,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		896E1B1029EB9EFABA124B59 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C619FE526551E05D220A1304 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		D18280C01ECA7A3800A591EF /* Date+Miva.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Miva.swift"; sourceTree = "<group>"; };
 		D198900C1EC7710F004EA332 /* Miva.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Miva.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D198900F1EC7710F004EA332 /* Miva.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Miva.h; sourceTree = "<group>"; };
-		D19890101EC7710F004EA332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D19890151EC7710F004EA332 /* MivaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MivaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D198901A1EC7710F004EA332 /* MivaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MivaTests.swift; sourceTree = "<group>"; };
-		D198901C1EC7710F004EA332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D198902A1EC7980E004EA332 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D198902C1EC7980E004EA332 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D19890311EC7980E004EA332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,22 +89,13 @@
 		D19890481EC7980E004EA332 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D198904C1EC7980E004EA332 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		D198904E1EC7980E004EA332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D19890581EC7A2AE004EA332 /* MivaCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MivaCache.swift; sourceTree = "<group>"; };
-		D198905A1EC7A2DE004EA332 /* MivaManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MivaManager.swift; sourceTree = "<group>"; };
-		D19890651EC7B89C004EA332 /* MivaRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MivaRequest.swift; sourceTree = "<group>"; };
-		D19890671EC7C234004EA332 /* MivaError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MivaError.swift; sourceTree = "<group>"; };
-		D19890691EC7C602004EA332 /* DataConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConvertible.swift; sourceTree = "<group>"; };
-		D198906C1EC7C700004EA332 /* UIImage+Miva.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Miva.swift"; sourceTree = "<group>"; };
-		D198906E1EC84C92004EA332 /* MivaLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MivaLogger.swift; sourceTree = "<group>"; };
-		D19890701EC88CD6004EA332 /* UIImageView+Miva.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Miva.swift"; sourceTree = "<group>"; };
-		D19890721EC897C7004EA332 /* MivaImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MivaImageManager.swift; sourceTree = "<group>"; };
-		D198908B1ECA31D0004EA332 /* MivaSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MivaSettings.swift; sourceTree = "<group>"; };
 		D198908D1ECA4FC7004EA332 /* MivaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MivaCollectionViewCell.swift; sourceTree = "<group>"; };
 		D198908F1ECA50E2004EA332 /* MivaLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MivaLayout.swift; sourceTree = "<group>"; };
 		D19890911ECA5645004EA332 /* MivaCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MivaCollectionViewController.swift; sourceTree = "<group>"; };
 		D19890931ECA5D60004EA332 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		D19890981ECA5FC5004EA332 /* PostCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCollection.swift; sourceTree = "<group>"; };
 		D198909A1ECA7409004EA332 /* UIColor+Miva.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Miva.swift"; sourceTree = "<group>"; };
+		F8732D7FB7E0B9B5B8C19BBD /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D19890841EC8A913004EA332 /* Miva.framework in Frameworks */,
+				35F9614AA79DCBA91A534CF3 /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +140,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06C81FA421EC356880224E55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8732D7FB7E0B9B5B8C19BBD /* Pods-Example.debug.xcconfig */,
+				C619FE526551E05D220A1304 /* Pods-Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B301125D194A14D650048192 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				896E1B1029EB9EFABA124B59 /* Pods_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D18280BF1ECA7A2900A591EF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,12 +169,12 @@
 		D19890021EC7710F004EA332 = {
 			isa = PBXGroup;
 			children = (
-				D198900E1EC7710F004EA332 /* Miva */,
-				D19890191EC7710F004EA332 /* MivaTests */,
 				D198902B1EC7980E004EA332 /* Example */,
 				D19890401EC7980E004EA332 /* ExampleTests */,
 				D198904B1EC7980E004EA332 /* ExampleUITests */,
 				D198900D1EC7710F004EA332 /* Products */,
+				06C81FA421EC356880224E55 /* Pods */,
+				B301125D194A14D650048192 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,33 +188,6 @@
 				D19890481EC7980E004EA332 /* ExampleUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D198900E1EC7710F004EA332 /* Miva */ = {
-			isa = PBXGroup;
-			children = (
-				D198905A1EC7A2DE004EA332 /* MivaManager.swift */,
-				D19890651EC7B89C004EA332 /* MivaRequest.swift */,
-				D19890581EC7A2AE004EA332 /* MivaCache.swift */,
-				D19890671EC7C234004EA332 /* MivaError.swift */,
-				D198906E1EC84C92004EA332 /* MivaLogger.swift */,
-				D198908B1ECA31D0004EA332 /* MivaSettings.swift */,
-				D19890691EC7C602004EA332 /* DataConvertible.swift */,
-				D198908A1ECA2637004EA332 /* Image */,
-				D198906B1EC7C6ED004EA332 /* Extensions */,
-				D198900F1EC7710F004EA332 /* Miva.h */,
-				D19890101EC7710F004EA332 /* Info.plist */,
-			);
-			path = Miva;
-			sourceTree = "<group>";
-		};
-		D19890191EC7710F004EA332 /* MivaTests */ = {
-			isa = PBXGroup;
-			children = (
-				D198901A1EC7710F004EA332 /* MivaTests.swift */,
-				D198901C1EC7710F004EA332 /* Info.plist */,
-			);
-			path = MivaTests;
 			sourceTree = "<group>";
 		};
 		D198902B1EC7980E004EA332 /* Example */ = {
@@ -251,23 +220,6 @@
 				D198904E1EC7980E004EA332 /* Info.plist */,
 			);
 			path = ExampleUITests;
-			sourceTree = "<group>";
-		};
-		D198906B1EC7C6ED004EA332 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				D198906C1EC7C700004EA332 /* UIImage+Miva.swift */,
-				D19890701EC88CD6004EA332 /* UIImageView+Miva.swift */,
-			);
-			name = Extensions;
-			sourceTree = "<group>";
-		};
-		D198908A1ECA2637004EA332 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				D19890721EC897C7004EA332 /* MivaImageManager.swift */,
-			);
-			name = Image;
 			sourceTree = "<group>";
 		};
 		D19890951ECA5D6C004EA332 /* Model */ = {
@@ -305,7 +257,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D198901D1EC7710F004EA332 /* Miva.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,10 +303,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D198904F1EC7980E004EA332 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
+				57B81ED8FAAEE4FE22F8F6C8 /* [CP] Check Pods Manifest.lock */,
 				D19890261EC7980E004EA332 /* Sources */,
 				D19890271EC7980E004EA332 /* Frameworks */,
 				D19890281EC7980E004EA332 /* Resources */,
 				D19890881EC8A913004EA332 /* Embed Frameworks */,
+				E39672357DB4D9F329FB101B /* [CP] Embed Pods Frameworks */,
+				D10D18E17744D02ABD2769FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -501,21 +455,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57B81ED8FAAEE4FE22F8F6C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D10D18E17744D02ABD2769FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E39672357DB4D9F329FB101B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Miva/Miva.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Miva.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D19890071EC7710F004EA332 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D19890681EC7C234004EA332 /* MivaError.swift in Sources */,
-				D198906A1EC7C602004EA332 /* DataConvertible.swift in Sources */,
-				D198906F1EC84C92004EA332 /* MivaLogger.swift in Sources */,
-				D198908C1ECA31D0004EA332 /* MivaSettings.swift in Sources */,
-				D19890731EC897C7004EA332 /* MivaImageManager.swift in Sources */,
-				D19890761EC89D81004EA332 /* UIImageView+Miva.swift in Sources */,
-				D19890661EC7B89C004EA332 /* MivaRequest.swift in Sources */,
-				D198906D1EC7C700004EA332 /* UIImage+Miva.swift in Sources */,
-				D198905B1EC7A2DE004EA332 /* MivaManager.swift in Sources */,
-				D19890591EC7A2AE004EA332 /* MivaCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,7 +521,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D198901B1EC7710F004EA332 /* MivaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -746,7 +743,6 @@
 		D19890241EC7710F004EA332 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MivaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mindvalley.MivaTests;
@@ -758,7 +754,6 @@
 		D19890251EC7710F004EA332 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MivaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mindvalley.MivaTests;
@@ -769,8 +764,8 @@
 		};
 		D19890501EC7980E004EA332 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8732D7FB7E0B9B5B8C19BBD /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -782,8 +777,8 @@
 		};
 		D19890511EC7980E004EA332 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C619FE526551E05D220A1304 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

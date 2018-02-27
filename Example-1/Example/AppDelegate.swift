@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Example
 //
-//  Created by Furqan on 23.02.18.
-//  Copyright © 2018 Furqan. All rights reserved.
+//  Created by Furqan on 14/05/2017.
+//  Copyright © 2017 Mind Valley. All rights reserved.
 //
 
 import UIKit

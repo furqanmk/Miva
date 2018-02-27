@@ -1,0 +1,16 @@
+PODS:
+  - Miva (0.1.1)
+
+DEPENDENCIES:
+  - Miva (from `../`)
+
+EXTERNAL SOURCES:
+  Miva:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Miva: 8278d272b40f82376bb9539d424a146d8e9202be
+
+PODFILE CHECKSUM: de42764c3e577e29bf9f82a0bfbe225a25673539
+
+COCOAPODS: 1.4.0

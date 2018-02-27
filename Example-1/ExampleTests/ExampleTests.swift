@@ -1,15 +1,15 @@
 //
-//  MivaTests.swift
-//  MivaTests
+//  ExampleTests.swift
+//  ExampleTests
 //
-//  Created by Furqan on 13/05/2017.
+//  Created by Furqan on 14/05/2017.
 //  Copyright © 2017 Mind Valley. All rights reserved.
 //
 
 import XCTest
-@testable import Miva
+@testable import Example
 
-class MivaTests: XCTestCase {
+class ExampleTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
